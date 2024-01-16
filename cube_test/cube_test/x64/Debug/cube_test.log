@@ -1,0 +1,5 @@
+﻿  Cube.cpp
+  main.cpp
+  正在生成代码...
+E:\code\vs_sophomore\cube_test\cube_test\Cube.cpp(41): warning C4715: “isSame”: 不是所有的控件路径都返回值
+  cube_test.vcxproj -> E:\code\vs_sophomore\cube_test\x64\Debug\cube_test.exe
