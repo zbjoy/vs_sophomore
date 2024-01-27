@@ -5,8 +5,6 @@
 
 void git_Push(char* cmd)
 {
-	system("E:");
-	system("cd E:\\code\\qt_sophomore");
 	system("git add ./");
 	char cmdStr[1024] = { 0 };
 	sprintf(cmdStr, "%s\"%s\"", "git commit -m", cmd);

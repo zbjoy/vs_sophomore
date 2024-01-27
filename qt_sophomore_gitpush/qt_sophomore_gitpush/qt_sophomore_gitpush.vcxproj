@@ -24,6 +24,7 @@
     <ProjectGuid>{9301e699-8fd9-4aa9-a6ed-efe2f274e21b}</ProjectGuid>
     <RootNamespace>qtsophomoregitpush</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>vs_sophomore_gitpush</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
