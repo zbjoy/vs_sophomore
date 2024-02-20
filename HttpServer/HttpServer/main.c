@@ -15,11 +15,12 @@ int main(int argc, char* argv[])
 	char path[1024] = "";
 	if (argc == 3)
 	{
-		memcpy(path, argv[2], sizeof(argv[2]));
+		memcpy(path, argv[2], strlen(argv[2]) + 1);
 	}
 	else
 	{
-		memset(path, "./res/", 3);
+		//memset(path, "./res/", 7);
+		memcpy(path, "./res/", 7);
 	}
 
 	chdir(path);

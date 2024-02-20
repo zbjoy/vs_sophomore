@@ -1,0 +1,30 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.56.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  server.c
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(74,41): warning : conversion to ‘int’ from ‘uint32_t’ {aka ‘unsigned int’} may change the sign of the result [-Wsign-conversion]
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(74,41): warning :    74 |                         int curevents = evs[i].events;
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(74,41): warning :       |                                         ^~~
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(165,23): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(165,23): warning :   165 |         while ((len = recv(cfd, temp, sizeof(temp), 0)) > 0)
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(165,23): warning :       |                       ^~~~
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(172,51): warning : conversion to ‘size_t’ {aka ‘long unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(172,51): warning :   172 |                         memcpy(buf + total, temp, len);
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(172,51): warning :       |                                                   ^~~
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(188,23): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(188,23): warning :   188 |                 len = ptr - buf;
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(188,23): warning :       |                       ^~~
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(252,66): warning : conversion from ‘__off_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(252,66): warning :   252 |                 sendHeadMsg(cfd, 200, "ok", getFileType(file), st.st_size);
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(252,66): warning :       |                                                                ~~^~~~~~~~
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(277,27): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(277,27): warning :   277 |                 int num = read(fd, buf, sizeof(buf));
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(277,27): warning :       |                           ^~~~
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(280,40): warning : conversion to ‘size_t’ {aka ‘long unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(280,40): warning :   280 |                         send(cfd, buf, num, 0);
+E:\code\vs_sophomore\HttpServer\HttpServer\server.c(280,40): warning :       |                                        ^~~
+  正在链接对象
+  HttpServer.vcxproj -> E:\code\vs_sophomore\HttpServer\HttpServer\bin\x64\Debug\HttpServer.out
